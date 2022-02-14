@@ -1,0 +1,39 @@
+---
+title: Learn Node.js, then Deno
+date: 2020-05-17
+description: It's time to start digging a little more into the back-end world.
+tags: ['nodejs', 'deno']
+featureImg: ./deno-land.png
+---
+
+## How I met Deno
+
+If you are on Twitter, you may have noticed that [Deno v1.0](https://deno.land/v1) is out recently. I don't know its existence until I saw all the tweets around. Since then, I become very sensitive to the word _Deno_.
+
+The day after, I saw the archive of the stream broadcasted live on Twitch by [Coding Garden with CJ](https://www.youtube.com/watch?v=67N2yXN_b_E&t=2666s&ab_channel=CodingGardenwithCJ) on YouTube and clicked on that immediately. It's interesting to watch along to learn how an experienced developer learning a new technology.
+
+My first impression about Deno is the dinosaur logo. It looks super cute with the rain behind it. The domain name is telling me like: **Welcome to the dinosaur land!**
+
+There's another resource worth mentioning here, which is the [Deno handbook](https://flaviocopes.com/deno/) written by [Flavio Copes](https://flaviocopes.com/). It is a nice and short introduction to Deno with just 46 pages.
+
+_More importantly, we always need to go back to the official documentation_.
+
+Deno has one main difference from Node.js which it does not include `package.json` in our project. Instead we will need to import all the packages we need from the url.
+
+Like so:
+
+```javascript
+import { serve } from 'https://deno.land/std@0.50.0/http/server.ts';
+```
+
+---
+
+## Learn Node.js
+
+After spending some hours experiencing with Deno, I decided to learn Node.js starting from today. I began with the [Node.js beginner tutorial](https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp) from The Net Ninja. I've been trying to learn it last year. There's nothing makes sense to me at that time. I feel like I can now resonate with these ideas. I'm going to build something out with Node.js after I learn all the fundamentals.
+
+## Then Deno
+
+Am I going to learn Deno as well? Yeah, definitely, at some point. But before that, let me be friends with TypeScript first! Because Deno supports TypeScript out of the box! I am so excited to learn all of the unknowns. Deno is just a cute 2-year-old boy now. I hope to see his growth and participate in his life.
+
+**Happy learning!**
